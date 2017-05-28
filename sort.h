@@ -21,6 +21,8 @@ namespace Antinus{
 		void sort_up_by(Z* base,unsigned int num_of_element);
 		template<class Z>
 		void sort_down_by(Z* base,unsigned int num_of_element);
+	public:
+		T* dump();
 	};
 
 }

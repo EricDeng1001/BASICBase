@@ -93,4 +93,9 @@ namespace Antinus{
 			delete [] P;
 		}
 	}
+	template <class T>
+	T* sorter<T>::dump()
+	{
+		return this->base;
+	}
 }
