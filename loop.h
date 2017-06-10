@@ -1,7 +1,7 @@
 #ifndef _LOOP_H_
 #define _LOOP_H_
 #include <typeinfo>
-unsigned int foreach_cursor_do_not_use;
+static unsigned int foreach_cursor_do_not_use;
 #define array_len(name) (sizeof(name)/sizeof(name[0]))
 #define loop(n) for(unsigned int i = 0;i < n; i++)
 #define dloop(n) for(unsigned int j = 0; j < n; j++)
